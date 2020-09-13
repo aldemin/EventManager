@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/ticketListFragment">
+    <fragment
+        android:id="@+id/ticketListFragment"
+        android:name="com.demin.eventmanager.ui.fragments.ticket_list.TicketListFragment"
+        android:label="TicketListFragment" >
+    </fragment>
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.demin.eventmanager.ui.fragments.splash.SplashFragment"
+        android:label="splash_fragment"
+        tools:layout="@layout/splash_fragment" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.demin.eventmanager.ui.fragments.login.LoginFragment"
+        android:label="LoginFragment" />
+</navigation>

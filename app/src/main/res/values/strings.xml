@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">EventManager</string>
+    <string name="settings">Settings</string>
+    <string name="about_us">About Us</string>
+    <string name="search">Search</string>
+    <string name="archive">Archive</string>
+    <string name="my_events">My Events</string>
+    <string name="please_login_or_register">Please login or register</string>
+    <string name="phone_number">Phone number</string>
+    <string name="get_the_code">Get the code</string>
 </resources>
