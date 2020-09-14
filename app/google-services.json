@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "337134860033",
+    "firebase_url": "https://event-manager-27c50.firebaseio.com",
+    "project_id": "event-manager-27c50",
+    "storage_bucket": "event-manager-27c50.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337134860033:android:f0a69e03e60b267a934d00",
+        "android_client_info": {
+          "package_name": "com.demin.eventmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "337134860033-9brc3mtdk9jfs1jej6uhqbpjd3jo80fg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAd0Lux55WxLIu6x6J-Mk_s2hRxKss5wGw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "337134860033-9brc3mtdk9jfs1jej6uhqbpjd3jo80fg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

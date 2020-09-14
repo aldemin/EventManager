@@ -3,7 +3,7 @@ package com.demin.eventmanager.model.entity.extension
 import com.demin.eventmanager.model.entity.Event
 import com.demin.eventmanager.model.entity.Ticket
 
-interface EventExtension
+interface EventExtension: Extension
 
 class GroupExtension(
     val groupList: List<Event>

@@ -5,7 +5,7 @@ import java.util.*
 
 class Event(
     val id: String,
-    val organizerId: String,
+    val organizerPersonId: String,
     val createDate: Date,
     var title: String,
     var description: String? = null,

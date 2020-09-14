@@ -2,5 +2,12 @@ package com.demin.eventmanager.model.entity.extension
 
 interface Extension
 
-class DateExtension: Extension {
+class BaseInformationExtension(
+    val address: String
+): Extension{
+
+}
+
+class DateExtension : Extension {
+
 }
