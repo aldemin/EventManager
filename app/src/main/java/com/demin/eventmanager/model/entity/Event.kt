@@ -5,10 +5,11 @@ import java.util.*
 
 class Event(
     val id: String,
-    val organizerPersonId: String,
+    val organizerPerson: Person,
     val createDate: Date,
     var title: String,
-    var description: String? = null,
+    var description: String,
     var address: String,
-    val extensionList: List<EventExtension>
+    val extensionList: List<EventExtension>? = null,
+    val ticketList: List<Ticket>
 )
